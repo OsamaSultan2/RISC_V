@@ -1,0 +1,302 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dE:/tools/questaSim/examples
+T_opt
+!s110 1755362948
+V6a:JE<TUYT7C4ajTdL3dU0
+04 8 4 work RiscV_tb fast 0
+=1-6018954610e7-68a0b684-1ab-35c8
+!s124 OEM100
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.1;73
+vALU
+Z2 !s110 1755362947
+!i10b 1
+!s100 iDKFDK2I7Eo_IkVYZV7`E2
+I@_b[8h42Q;Na_:b1dV5T61
+Z3 dD:/digital project/RISC V processor/single_cycle
+w1755361776
+8ALU.v
+FALU.v
+!i122 54
+L0 1 20
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.1;73
+r1
+!s85 0
+31
+Z6 !s108 1755362947.000000
+Z7 !s107 risc_tb.v|regfile.v|pc.v|main_decoder.v|instructions.v|imm_extension.v|data_memory.v|RiscV.v|ALU_decoder.v|ALU.v|3x1_mux.v|2x1_mux.v|
+Z8 !s90 -reportprogress|300|2x1_mux.v|3x1_mux.v|ALU.v|ALU_decoder.v|RiscV.v|data_memory.v|imm_extension.v|instructions.v|main_decoder.v|pc.v|regfile.v|risc_tb.v|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@a@l@u
+vALU_decoder
+R2
+!i10b 1
+!s100 06eH1`eV2eFJ[HkCQcmiB0
+Id^iNK1b?aS<U3C_@IF6ba2
+R3
+w1755272068
+8ALU_decoder.v
+FALU_decoder.v
+!i122 54
+L0 1 29
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@a@l@u_decoder
+vcontrol_unit
+R2
+!i10b 1
+!s100 @bSPCi^i2]4iI4PHZjj<51
+IQSizY]Ud4z[I73JcMEl3I0
+R3
+w1755361204
+8main_decoder.v
+Fmain_decoder.v
+!i122 54
+L0 1 90
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vdata_mem
+R2
+!i10b 1
+!s100 ;OPM=jTEfS7bi<8z`V<II0
+IB2K<2]8HD3o<oWBV^=FHE2
+R3
+w1755362779
+8data_memory.v
+Fdata_memory.v
+!i122 54
+Z10 L0 1 22
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vimm_ext
+R2
+!i10b 1
+!s100 MGXMWhn4f@;4ag>BCf5710
+I8G<Q3@zkVC1<0GfZJMo761
+R3
+w1755360366
+8imm_extension.v
+Fimm_extension.v
+!i122 54
+L0 1 14
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vinstr_memory
+R2
+!i10b 1
+!s100 Rca[@3j@Ie5b01F^M>P;h1
+I71B<XeTdHRCzcCMnQW?Eb0
+R3
+w1755273181
+8instructions.v
+Finstructions.v
+!i122 54
+Z11 L0 1 9
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vmux_2x1
+R2
+!i10b 1
+!s100 XBP:FZ4d90HSXjTbFmXIA0
+Ic;DhXLe@FJTfJD9ZPFEF_0
+R3
+w1755274465
+82x1_mux.v
+F2x1_mux.v
+!i122 54
+R11
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vmux_3x1
+R2
+!i10b 1
+!s100 8<ZEQ0VAdFP_M^R:cZE:O2
+IV<4NbO1ajHdE1LS2ei[X43
+R3
+w1755274468
+83x1_mux.v
+F3x1_mux.v
+!i122 54
+R11
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vprogram_counter
+R2
+!i10b 1
+!s100 J2NHj8cLCTgcDgWL`6:dC0
+IRC81_Jn_kJ4Ja?j9z>Z4U2
+R3
+w1755362512
+8pc.v
+Fpc.v
+!i122 54
+Z12 L0 1 21
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vregister_file
+R2
+!i10b 1
+!s100 5gRIkR90Fo`FE`ZYo@WfL0
+Ikc;;9c`==4FUm>2X_mV7j1
+R3
+w1755362786
+8regfile.v
+Fregfile.v
+!i122 54
+R12
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vRiscV_tb
+R2
+!i10b 1
+!s100 @>2T;3DR`ih`f_D_;aldR3
+Ig>Q=10eGM9]Bb[H9_V^Lf2
+R3
+w1755362287
+8risc_tb.v
+Frisc_tb.v
+!i122 54
+R10
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@risc@v_tb
+vSingleRisc
+R2
+!i10b 1
+!s100 gQ^V:G1dnc=>Sam><E2ZE0
+Ic5FoH_B2A;A2<0]Iekebf1
+R3
+w1755362929
+8RiscV.v
+FRiscV.v
+!i122 54
+L0 1 102
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@single@risc
