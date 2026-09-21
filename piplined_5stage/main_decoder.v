@@ -1,7 +1,7 @@
 module control_unit (
   input [6:0] op,
   input [2:0] funct3, // can be removed ??
-  output reg  branch, jump,  memWrite, ALUSrc, RegWrite,branch_neq
+  output reg  branch, jump,  memWrite, ALUSrc, RegWrite,branch_neq,
   output reg [1:0] immSrc,resultSrc, ALUControl
 );
 always @(*) begin

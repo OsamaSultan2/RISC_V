@@ -9,12 +9,12 @@ initial begin
   end
 end
 //============= dut init. ======================
-SingleRisc dut (.clk(clk), .rst(rst));
+RISCV_pipelined dut (.clk(clk), .rst(rst));
 //==============================================
 initial begin
   $readmemh("mem.dat", dut.instruction_mem.mem);
   rst=1;
-  #5;
+  #100;
   rst=0;
   #600;
   $stop;

@@ -1,0 +1,14 @@
+./2x1_mux.v
+./instructions.v
+./registers.v
+./ALU_decoder.v
+./regfile.v
+./ALU.v
+./pc.v
+./3x1_mux.v
+./RiscV.v
+./main_decoder.v
+./risc_tb.v
+./imm_extension.v
+./data_memory.v
+./Hazard_unit.v

@@ -1,0 +1,376 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+R0
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/sultan/Digital_Projects/RISC_V/piplined_5stage
+T_opt
+!s110 1790019924
+VNz]Oz?7eSUak;g0fdR1]?3
+04 15 4 work RISCV_pipelined fast 0
+=1-000ae431a4f1-6ab18954-7a87b-711e
+Z2 !s124 OEM100
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2_1;73
+R1
+T_opt1
+!s110 1790020794
+VdO]6FbT_bYUgz9X>J<Y6?3
+04 8 4 work RiscV_tb fast 0
+=1-000ae431a4f1-6ab18cba-415b-7850
+R2
+R3
+R4
+n@_opt1
+R5
+vALU
+Z6 !s110 1790020793
+!i10b 1
+!s100 iDKFDK2I7Eo_IkVYZV7`E2
+I1QX0Zj>:KAU@lc4mFk]aY3
+R1
+Z7 w1789833853
+8./ALU.v
+F./ALU.v
+!i122 24
+L0 1 20
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+Z10 !s108 1790020793.000000
+Z11 !s107 ./Hazard_unit.v|./data_memory.v|./imm_extension.v|./risc_tb.v|./main_decoder.v|./RiscV.v|./3x1_mux.v|./pc.v|./ALU.v|./regfile.v|./ALU_decoder.v|./registers.v|./instructions.v|./2x1_mux.v|
+Z12 !s90 -reportprogress|300|-f|files.list|
+!i113 0
+Z13 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+n@a@l@u
+vALU_decoder
+R6
+!i10b 1
+!s100 06eH1`eV2eFJ[HkCQcmiB0
+IL^7P?mnl0YENV[20PKMnc1
+R1
+R7
+8./ALU_decoder.v
+F./ALU_decoder.v
+!i122 24
+L0 1 29
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R4
+n@a@l@u_decoder
+vcontrol_register
+R6
+!i10b 1
+!s100 ]3UDj^d37TIBlQfPYW58h2
+IRe=<cMWKnXZcm;_@4k@Y^3
+R1
+Z14 w1790017512
+Z15 8./registers.v
+Z16 F./registers.v
+!i122 24
+L0 19 51
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R4
+vcontrol_unit
+R6
+!i10b 1
+!s100 IC^T1WA_n3Ek[05H?al>I1
+I>[eHQPl0J6zn_6z^40o]P0
+R1
+w1789912806
+8./main_decoder.v
+F./main_decoder.v
+!i122 24
+L0 1 98
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R4
+vdata_mem
+R6
+!i10b 1
+!s100 ;OPM=jTEfS7bi<8z`V<II0
+I2dOVgnMmzk:KOWJ;]2Y1o3
+R1
+R7
+8./data_memory.v
+F./data_memory.v
+!i122 24
+Z17 L0 1 22
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R4
+vHazard_unit
+R6
+!i10b 1
+!s100 =kjg<SfT[FBU@fmDFfaM61
+I>NaO4Mlak71KSGL9JSSCK1
+R1
+w1790019918
+8./Hazard_unit.v
+F./Hazard_unit.v
+!i122 24
+L0 1 69
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R4
+n@hazard_unit
+vimm_ext
+R6
+!i10b 1
+!s100 MGXMWhn4f@;4ag>BCf5710
+Icfn0;XCIiN[nkY^WaO`e;1
+R1
+R7
+8./imm_extension.v
+F./imm_extension.v
+!i122 24
+L0 1 14
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R4
+vinstr_memory
+R6
+!i10b 1
+!s100 Rca[@3j@Ie5b01F^M>P;h1
+Ilz7J0e[Pg]V858Y7Ah=Qj0
+R1
+R7
+8./instructions.v
+F./instructions.v
+!i122 24
+Z18 L0 1 9
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R4
+vmux_2x1
+R6
+!i10b 1
+!s100 XBP:FZ4d90HSXjTbFmXIA0
+ILIBZP_Vo9m1<mM`TQGQbY2
+R1
+R7
+8./2x1_mux.v
+F./2x1_mux.v
+!i122 24
+R18
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R4
+vmux_3x1
+R6
+!i10b 1
+!s100 8<ZEQ0VAdFP_M^R:cZE:O2
+IbN>:dV7ch5a6m_J_UzeC<1
+R1
+R7
+8./3x1_mux.v
+F./3x1_mux.v
+!i122 24
+R18
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R4
+vprogram_counter
+R6
+!i10b 1
+!s100 1I2LY92I`h=XdY3oZmoVa1
+IZH5a[B4RJT8gcKV@mFl650
+R1
+w1790019416
+8./pc.v
+F./pc.v
+!i122 24
+R17
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R4
+vregister
+R6
+!i10b 1
+!s100 K?:LnBcaeD??O>2NcNJCa1
+IAXH]PH;9Ub1X`<714<6eK3
+R1
+R14
+R15
+R16
+!i122 24
+L0 1 17
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R4
+vregister_file
+R6
+!i10b 1
+!s100 M;IRTTZkXhW4n9?l;`<zB3
+II4;Q4H>]CVEMhe2Ij^KJD2
+R1
+w1790017551
+8./regfile.v
+F./regfile.v
+!i122 24
+L0 1 24
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R4
+vRISCV_pipelined
+R6
+!i10b 1
+!s100 602EO[_>^:ifgPUD:DiQR3
+IOG?;AEWzk9WDo7>U?oX]A1
+R1
+w1790019492
+8./RiscV.v
+F./RiscV.v
+!i122 24
+L0 1 415
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R4
+n@r@i@s@c@v_pipelined
+vRiscV_tb
+R6
+!i10b 1
+!s100 gPDGK[]WF_6ZNS:B@mTPa2
+IEzijEB<l7b6ONa>j9Y:CA2
+R1
+w1790020765
+8./risc_tb.v
+F./risc_tb.v
+!i122 24
+R17
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R4
+n@risc@v_tb

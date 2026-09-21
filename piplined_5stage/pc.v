@@ -1,5 +1,5 @@
 module program_counter (
-  input clk , rst, pc_src,
+  input clk , rst, pc_src,enable,
   input [31:0] pc_target,
   output reg [31:0] pc,
   output [31:0] pc_4
@@ -10,8 +10,9 @@ always @(posedge clk, posedge rst) begin
   if (rst) begin
     pc <= 0;
   end
-  else 
-  pc <= pc_next;
+  else if (enable) begin
+    pc <= pc_next;
+  end
 end
 assign pc_4 = pc + 4 ;
 //====> branching mux
