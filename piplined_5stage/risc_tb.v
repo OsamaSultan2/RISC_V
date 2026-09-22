@@ -14,7 +14,7 @@ RISCV_pipelined dut (.clk(clk), .rst(rst));
 initial begin
   $readmemh("mem.dat", dut.instruction_mem.mem);
   rst=1;
-  #100;
+  @(negedge clk);
   rst=0;
   #600;
   $stop;

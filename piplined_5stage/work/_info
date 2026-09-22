@@ -10,6 +10,9 @@ R0
 R0
 R0
 R0
+R0
+R0
+R0
 !s11f MIXED_VERSIONS
 13
 !s112 1.1
@@ -30,17 +33,17 @@ n@_opt
 Z5 OL;O;2021.2_1;73
 R1
 T_opt1
-!s110 1790020794
-VdO]6FbT_bYUgz9X>J<Y6?3
+Z6 !s110 1790091072
+VZ`hF7dJ3e4mSR:Sj6P8HC1
 04 8 4 work RiscV_tb fast 0
-=1-000ae431a4f1-6ab18cba-415b-7850
+=1-000ae431a4f1-6ab29f40-645ee-22e8
 R2
 R3
 R4
 n@_opt1
 R5
 vALU
-Z6 !s110 1790020793
+R6
 !i10b 1
 !s100 iDKFDK2I7Eo_IkVYZV7`E2
 I1QX0Zj>:KAU@lc4mFk]aY3
@@ -48,14 +51,14 @@ R1
 Z7 w1789833853
 8./ALU.v
 F./ALU.v
-!i122 24
+!i122 28
 L0 1 20
 Z8 VDg1SIo80bB@j0V0VzS_@n1
 Z9 OL;L;2021.2_1;73
 r1
 !s85 0
 31
-Z10 !s108 1790020793.000000
+Z10 !s108 1790091072.000000
 Z11 !s107 ./Hazard_unit.v|./data_memory.v|./imm_extension.v|./risc_tb.v|./main_decoder.v|./RiscV.v|./3x1_mux.v|./pc.v|./ALU.v|./regfile.v|./ALU_decoder.v|./registers.v|./instructions.v|./2x1_mux.v|
 Z12 !s90 -reportprogress|300|-f|files.list|
 !i113 0
@@ -71,8 +74,8 @@ R1
 R7
 8./ALU_decoder.v
 F./ALU_decoder.v
-!i122 24
-L0 1 29
+!i122 28
+Z14 L0 1 29
 R8
 R9
 r1
@@ -91,10 +94,10 @@ R6
 !s100 ]3UDj^d37TIBlQfPYW58h2
 IRe=<cMWKnXZcm;_@4k@Y^3
 R1
-Z14 w1790017512
-Z15 8./registers.v
-Z16 F./registers.v
-!i122 24
+Z15 w1790017512
+Z16 8./registers.v
+Z17 F./registers.v
+!i122 28
 L0 19 51
 R8
 R9
@@ -116,7 +119,7 @@ R1
 w1789912806
 8./main_decoder.v
 F./main_decoder.v
-!i122 24
+!i122 28
 L0 1 98
 R8
 R9
@@ -138,8 +141,8 @@ R1
 R7
 8./data_memory.v
 F./data_memory.v
-!i122 24
-Z17 L0 1 22
+!i122 28
+Z18 L0 1 22
 R8
 R9
 r1
@@ -160,7 +163,7 @@ R1
 w1790019918
 8./Hazard_unit.v
 F./Hazard_unit.v
-!i122 24
+!i122 28
 L0 1 69
 R8
 R9
@@ -183,7 +186,7 @@ R1
 R7
 8./imm_extension.v
 F./imm_extension.v
-!i122 24
+!i122 28
 L0 1 14
 R8
 R9
@@ -205,8 +208,8 @@ R1
 R7
 8./instructions.v
 F./instructions.v
-!i122 24
-Z18 L0 1 9
+!i122 28
+Z19 L0 1 9
 R8
 R9
 r1
@@ -227,8 +230,8 @@ R1
 R7
 8./2x1_mux.v
 F./2x1_mux.v
-!i122 24
-R18
+!i122 28
+R19
 R8
 R9
 r1
@@ -249,8 +252,8 @@ R1
 R7
 8./3x1_mux.v
 F./3x1_mux.v
-!i122 24
-R18
+!i122 28
+R19
 R8
 R9
 r1
@@ -265,14 +268,14 @@ R4
 vprogram_counter
 R6
 !i10b 1
-!s100 1I2LY92I`h=XdY3oZmoVa1
-IZH5a[B4RJT8gcKV@mFl650
+!s100 V6PhjO`kGPKm<EYe42GFZ2
+IY^giAYJ41?9_<SBX1F4Cb3
 R1
-w1790019416
+w1790091057
 8./pc.v
 F./pc.v
-!i122 24
-R17
+!i122 28
+R18
 R8
 R9
 r1
@@ -290,10 +293,10 @@ R6
 !s100 K?:LnBcaeD??O>2NcNJCa1
 IAXH]PH;9Ub1X`<714<6eK3
 R1
-R14
 R15
 R16
-!i122 24
+R17
+!i122 28
 L0 1 17
 R8
 R9
@@ -309,14 +312,14 @@ R4
 vregister_file
 R6
 !i10b 1
-!s100 M;IRTTZkXhW4n9?l;`<zB3
-II4;Q4H>]CVEMhe2Ij^KJD2
+!s100 [@EZK1>CM^^<K0<cncMC73
+I8[oUT4z?j:oPjgcc=mMF81
 R1
-w1790017551
+w1790088999
 8./regfile.v
 F./regfile.v
-!i122 24
-L0 1 24
+!i122 28
+R14
 R8
 R9
 r1
@@ -331,14 +334,14 @@ R4
 vRISCV_pipelined
 R6
 !i10b 1
-!s100 602EO[_>^:ifgPUD:DiQR3
-IOG?;AEWzk9WDo7>U?oX]A1
+!s100 =b18c:MC6VS6fgUPa0^zh1
+IA1[>Cozja_l5:@TPh<U7Q1
 R1
-w1790019492
+w1790090670
 8./RiscV.v
 F./RiscV.v
-!i122 24
-L0 1 415
+!i122 28
+L0 1 418
 R8
 R9
 r1
@@ -354,14 +357,14 @@ n@r@i@s@c@v_pipelined
 vRiscV_tb
 R6
 !i10b 1
-!s100 gPDGK[]WF_6ZNS:B@mTPa2
-IEzijEB<l7b6ONa>j9Y:CA2
+!s100 GKg]INKd_;4jzLDVWB]FB1
+IQLz45VJzC:oH@jlWeXl4`3
 R1
-w1790020765
+w1790088962
 8./risc_tb.v
 F./risc_tb.v
-!i122 24
-R17
+!i122 28
+R18
 R8
 R9
 r1

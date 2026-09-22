@@ -1,5 +1,5 @@
 module register_file (
-  input              clk, WE3,
+  input              clk, WE3,rst,
   input       [4:0]  A1 , A2, A3,
   input       [31:0] WD3,
   output  reg [31:0] RD1, RD2
@@ -16,9 +16,14 @@ module register_file (
       reg_file[A3] <= WD3;
     end
   end
-  always @(posedge clk) begin
-
-    RD1 <= reg_file[A1];
-    RD2 <= reg_file[A2];
+  always @(posedge clk or posedge rst ) begin
+    if (rst) begin
+      RD1 <= 0;
+      RD2 <= 0;
+    end
+    else begin
+      RD1 <= reg_file[A1];
+      RD2 <= reg_file[A2];
+    end
   end
 endmodule

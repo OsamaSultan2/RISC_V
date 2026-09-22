@@ -16,7 +16,7 @@
 # ** Warning: (vlib-34) Library already exists at "work".
 # Errors: 0, Warnings: 1
 # QuestaSim-64 vlog 2021.2_1 Compiler 2021.05 May 15 2021
-# Start time: 22:59:53 on Sep 21,2026
+# Start time: 18:31:12 on Sep 22,2026
 # vlog -reportprogress 300 -f files.list 
 # -- Compiling module mux_2x1
 # -- Compiling module instr_memory
@@ -36,14 +36,11 @@
 # 
 # Top level modules:
 # 	RiscV_tb
-# End time: 22:59:53 on Sep 21,2026, Elapsed time: 0:00:00
+# End time: 18:31:12 on Sep 22,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" work.RiscV_tb 
-# Start time: 22:59:53 on Sep 21,2026
+# Start time: 18:31:12 on Sep 22,2026
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: ./risc_tb.v(12): (vopt-2685) [TFMPC] - Too few port connections for 'dut'.  Expected 3, found 2.
-# ** Warning: ./risc_tb.v(12): (vopt-2718) [TFMPC] - Missing connection for port 'data_out'.
-# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
 # Loading work.RiscV_tb(fast)
 # Loading work.RISCV_pipelined(fast)
 # Loading work.program_counter(fast)
@@ -61,65 +58,66 @@
 # Loading work.data_mem(fast)
 # Loading work.Hazard_unit(fast)
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: ./registers.v(20).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/control_e File: ./RiscV.v Line: 114
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/control_e File: ./RiscV.v Line: 116
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/PCE_reg File: ./RiscV.v Line: 138
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/PCE_reg File: ./RiscV.v Line: 141
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/RD1E_reg File: ./RiscV.v Line: 147
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/RD1E_reg File: ./RiscV.v Line: 150
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/RD2E_reg File: ./RiscV.v Line: 156
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/RD2E_reg File: ./RiscV.v Line: 159
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/RdE_reg File: ./RiscV.v Line: 165
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/RdE_reg File: ./RiscV.v Line: 168
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/Rs1E_reg File: ./RiscV.v Line: 173
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/Rs1E_reg File: ./RiscV.v Line: 176
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/Rs2E_reg File: ./RiscV.v Line: 181
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/Rs2E_reg File: ./RiscV.v Line: 184
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/PCplus4E_reg File: ./RiscV.v Line: 190
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/PCplus4E_reg File: ./RiscV.v Line: 193
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/immextE_reg File: ./RiscV.v Line: 199
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/immextE_reg File: ./RiscV.v Line: 202
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: ./registers.v(20).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/control_m File: ./RiscV.v Line: 252
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/control_m File: ./RiscV.v Line: 255
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'clr'. The port definition is at: ./registers.v(20).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/control_m File: ./RiscV.v Line: 252
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/control_m File: ./RiscV.v Line: 255
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/ALUResultM_reg File: ./RiscV.v Line: 275
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/ALUResultM_reg File: ./RiscV.v Line: 278
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'clr'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/ALUResultM_reg File: ./RiscV.v Line: 275
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/ALUResultM_reg File: ./RiscV.v Line: 278
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/WriteDataM_reg File: ./RiscV.v Line: 284
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/WriteDataM_reg File: ./RiscV.v Line: 287
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'clr'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/WriteDataM_reg File: ./RiscV.v Line: 284
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/WriteDataM_reg File: ./RiscV.v Line: 287
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/RdM_reg File: ./RiscV.v Line: 293
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/RdM_reg File: ./RiscV.v Line: 296
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'clr'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/RdM_reg File: ./RiscV.v Line: 293
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/RdM_reg File: ./RiscV.v Line: 296
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/PCplus4M_reg File: ./RiscV.v Line: 302
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/PCplus4M_reg File: ./RiscV.v Line: 305
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'clr'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/PCplus4M_reg File: ./RiscV.v Line: 302
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/PCplus4M_reg File: ./RiscV.v Line: 305
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: ./registers.v(20).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/control_w File: ./RiscV.v Line: 325
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/control_w File: ./RiscV.v Line: 328
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'clr'. The port definition is at: ./registers.v(20).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/control_w File: ./RiscV.v Line: 325
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/control_w File: ./RiscV.v Line: 328
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/ALUResultW_reg File: ./RiscV.v Line: 348
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/ALUResultW_reg File: ./RiscV.v Line: 351
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'clr'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/ALUResultW_reg File: ./RiscV.v Line: 348
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/ALUResultW_reg File: ./RiscV.v Line: 351
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/ReadDataW_reg File: ./RiscV.v Line: 357
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/ReadDataW_reg File: ./RiscV.v Line: 360
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'clr'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/ReadDataW_reg File: ./RiscV.v Line: 357
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/ReadDataW_reg File: ./RiscV.v Line: 360
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/RdW_reg File: ./RiscV.v Line: 366
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/RdW_reg File: ./RiscV.v Line: 369
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'clr'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/RdW_reg File: ./RiscV.v Line: 366
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/RdW_reg File: ./RiscV.v Line: 369
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'enable'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/PCplus4W_reg File: ./RiscV.v Line: 375
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/PCplus4W_reg File: ./RiscV.v Line: 378
 # ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'clr'. The port definition is at: ./registers.v(5).
-#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/PCplus4W_reg File: ./RiscV.v Line: 375
+#    Time: 0 ns  Iteration: 0  Instance: /RiscV_tb/dut/PCplus4W_reg File: ./RiscV.v Line: 378
 # ** Note: $stop    : ./risc_tb.v(20)
-#    Time: 700 ns  Iteration: 0  Instance: /RiscV_tb
+#    Time: 610 ns  Iteration: 0  Instance: /RiscV_tb
 # Break in Module RiscV_tb at ./risc_tb.v line 20
-# End time: 23:00:27 on Sep 21,2026, Elapsed time: 0:00:34
-# Errors: 0, Warnings: 31
+# Dataset "sim" exported as WLF file: waveform.wlf.
+# End time: 18:32:42 on Sep 22,2026, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 29

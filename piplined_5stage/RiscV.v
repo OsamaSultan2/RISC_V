@@ -7,6 +7,7 @@ wire        branch_d, jump_d,  memWrite_d, ALUSrc_d, RegWrite_d, branch_eq, bran
 wire        branch_w, jump_w,  memWrite_w, ALUSrc_w, RegWrite_w;            
 wire        stallD,   stallF,  flushE, flushD; 
 wire        branch_m, jump_m,  memWrite_m, ALUSrc_m, RegWrite_m;
+wire        PCSrc;    
 wire [1:0]  immSrc_m,resultSrc_m;
 wire [1:0]  ALUControl_m;
 wire [1:0]  immSrc_d, resultSrc_d;
@@ -42,7 +43,7 @@ instr_memory instruction_mem (
 //==========================================
 // DECODE STAGE
 //==========================================
-  wire [31:0] instrD, PCD, immextD, PCplus4D;
+  wire [31:0] instrD, PCD, PCplus4D;
   register #(.WIDTH(32)) instrD_reg (
     .clk(clk),
     .rst(rst),
@@ -86,6 +87,7 @@ instr_memory instruction_mem (
    
   register_file reg_file(
     .clk(clk),
+    .rst(rst),
     .WE3(RegWrite_w),
     .A1(instrD[19:15]),
     .A2(instrD[24:20]),
@@ -118,6 +120,7 @@ instr_memory instruction_mem (
     .mem_write_in(memWrite_d),
     .jump_in(jump_d),
     .branch_in(branch_d),
+    .branch_neq_in(branch_neq),
     .ALU_src_in(ALUSrc_d),
     .result_source_in(resultSrc_d),
     .imm_src_in(immSrc_d),

@@ -8,7 +8,6 @@ add wave -noupdate -divider {decode stage}
 add wave -noupdate /RiscV_tb/dut/instruction
 add wave -noupdate /RiscV_tb/dut/instrD
 add wave -noupdate /RiscV_tb/dut/PCD
-add wave -noupdate /RiscV_tb/dut/immextD
 add wave -noupdate /RiscV_tb/dut/PCplus4D
 add wave -noupdate /RiscV_tb/dut/RD1
 add wave -noupdate /RiscV_tb/dut/RD2

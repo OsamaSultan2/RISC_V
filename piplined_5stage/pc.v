@@ -16,7 +16,7 @@ always @(posedge clk, posedge rst) begin
 end
 assign pc_4 = pc + 4 ;
 //====> branching mux
-mux_2x1 branch_mux (.sel(pc_src),.in0(pc_4),.in1(pc_target),.out(branch_pc));
+mux_2x1 branch_mux (.sel(pc_src),.in0(pc_4),.in1(pc_target),.out(pc_next));
 //====> jumping  mux
 
 endmodule
